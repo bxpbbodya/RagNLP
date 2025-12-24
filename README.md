@@ -1,29 +1,29 @@
-# RAG NLP Question Answering
-
-RAG-based QA system for NLP topics.
-
-## Components
-- Data: custom NLP docs
-- Chunking: fixed-size with overlap
-- Retriever: BM25 + Dense
-- Reranker: cross-encoder
-- LLM: OpenAI-compatible
-- UI: Gradio
-
-## Run
-```bash
-pip install -r requirements.txt
-python app.py
-
+---
+title: RagNLP
+emoji: 📚
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.44.0"
+app_file: app.py
+pinned: false
 ---
 
-# ✅ Це вже:
-- ✔ Retrieval-Augmented Generation
-- ✔ BM25 + Dense
-- ✔ Reranker
-- ✔ Перемикачі
-- ✔ Citations
-- ✔ Gradio
-- ✔ Готово до HuggingFace Spaces
+# RagNLP — RAG Question Answering українською
 
----
+Це демо Retrieval-Augmented Generation (RAG) системи для question answering на основі документів.
+
+## Як користуватися
+1. Введіть запитання.
+2. Оберіть режим retriever (BM25 / Dense / Combined).
+3. (Опційно) увімкніть реранкер.
+4. Додайте API key (Groq або інший OpenAI-compatible).
+5. Натисніть Ask.
+
+## Компоненти
+- **Джерело даних:** українські документи по NLP/RAG
+- **Chunking:** фіксовані чанки з overlap
+- **Retrievers:** BM25 + Dense
+- **Reranker:** Cross-encoder
+- **UI:** Gradio
+- **Citations:** inline + список джерел в кінці
