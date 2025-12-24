@@ -1,0 +1,1 @@
+теми Data Leakage & Train/Test Split - Data Leakage Examples. Текст подається українською мовою та містить достатньо інформації для chunking.

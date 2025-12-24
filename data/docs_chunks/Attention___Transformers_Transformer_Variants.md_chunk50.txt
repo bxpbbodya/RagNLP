@@ -1,0 +1,1 @@
+для кращого розуміння теми Attention & Transformers - Transformer Variants. Текст подається українською мовою та містить достатньо інформації для chunking.

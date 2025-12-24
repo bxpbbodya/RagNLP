@@ -1,0 +1,1 @@
+Classification - BERT Fine-Tuning. Текст подається українською мовою та містить достатньо інформації для chunking.

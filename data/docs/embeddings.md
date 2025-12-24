@@ -1,0 +1,15 @@
+# Word Embeddings
+
+Word embeddings are dense vector representations of words that capture semantic meaning.
+
+## Static embeddings
+Word2Vec and GloVe assign one vector per word regardless of context.
+They capture global co-occurrence statistics.
+
+## Contextual embeddings
+Contextual embeddings such as ELMo and BERT produce different vectors for the same word
+depending on its context.
+
+## Cosine similarity
+Cosine similarity measures the angle between two vectors and is commonly used
+to compare embeddings.
